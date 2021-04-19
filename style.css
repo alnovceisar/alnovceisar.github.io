@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Monda&family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #dbf6e9;
+}
+#project {
+  background-color: #dbf6e9;
+}
+#contact p {
+  color: rgb(73, 71, 71);
+}
+#contact i {
+  font-size: xx-large;
+  color: rgb(73, 71, 71);
+}
+#contact p .mail:hover {
+  color: rgb(179, 25, 25);
+}
+#contact p .wa:hover {
+  color: rgb(20, 150, 20);
+}
+
+#contact a .fb:hover {
+  color: rgb(26, 24, 145);
+}
+#contact a .liin:hover {
+  color: rgb(25, 65, 150);
+}
