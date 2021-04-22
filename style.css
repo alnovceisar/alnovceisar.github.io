@@ -1,9 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Monda&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Monda&family=Poppins:wght@300;400&display=swap");
 * {
   box-sizing: border-box;
 }
 body {
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.flite {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .jumbotron {
   padding-top: 2rem;
