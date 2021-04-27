@@ -5,6 +5,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  background-color: #e0fcff;
 }
 .flite {
   font-family: "Poppins", sans-serif;
@@ -12,10 +13,11 @@ body {
 }
 .jumbotron {
   padding-top: 2rem;
-  background-color: #dbf6e9;
+  background-color: #87dfd6;
 }
-#project {
-  background-color: #dbf6e9;
+#project,
+#sertifikasi {
+  background-color: #87dfd6;
 }
 #contact p {
   color: rgb(73, 71, 71);
@@ -48,9 +50,9 @@ body {
   height: 320px;
   background: #fff;
   padding: 30px 30px 30px;
-  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
   margin-left: 15px;
   margin-right: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container-project .box-project:before {
@@ -60,7 +62,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #ff226d;
+  background: #2f9296;
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.5s;
@@ -81,7 +83,7 @@ body {
   margin: 0;
 }
 .container-project .box-project:hover p {
-  color: #dbf6e9;
+  color: #ffffff;
 }
 .container-project .box-project:visited p {
   color: #a8ff44;
@@ -92,10 +94,36 @@ body {
 }
 .container-project .box-project:hover a {
   position: relative;
-  color: rgb(228, 217, 217);
+  color: #fff;
   margin-top: 20px;
-  border: 2px solid oldlace;
+  border: 2px solid #fff;
 }
 .btns:focus {
   box-shadow: none;
+}
+footer {
+  background-color: #2f9296;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+  text-indent: unset;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  font-size: calc(1.325rem + 0.9vw);
+  color: #2f9296;
+  opacity: 0.4;
+}
+.carousel-indicators {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.carousel-indicators .active {
+  color: #212529;
+  opacity: 1;
 }
